@@ -98,8 +98,8 @@ def main():
                 <h4 style="color:white;text-align:center;"> </h4>
                 <h4 style="color:white;text-align:center;">Thanks for Visiting</h4>
                 </div>
-                
-                <br></br>"""
+                <br></br>
+                """
 
         st.markdown(html_temp4, unsafe_allow_html=True)
 
