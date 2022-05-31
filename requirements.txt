@@ -1,0 +1,8 @@
+streamlit
+tensorflow-cpu
+numpy
+Keras
+opencv-python-headless
+streamlit-webrtc
+Pillow
+webbrowser
