@@ -6,7 +6,7 @@ import streamlit as st
 import spotify_client as xy
 from tensorflow import keras
 from keras.models import load_model
-from keras.preprocessing.image import img_to_array
+from keras.utils.image_utils import img_to_array
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 
 emotion_dict = ["Angry", "Disgust", "Fear",
