@@ -5,3 +5,4 @@ Keras
 opencv-python-headless
 streamlit-webrtc
 Pillow
+spotipy
