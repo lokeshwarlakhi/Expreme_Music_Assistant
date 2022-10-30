@@ -3,6 +3,7 @@ import time
 import numpy as np
 from PIL import Image
 import streamlit as st
+# import streamlit.report_thread as ReportThread
 import spotify_client as xy
 from tensorflow import keras
 from keras.models import load_model
@@ -54,11 +55,11 @@ class VideoTransformer(VideoTransformerBase):
             cv2.putText(img, output, label_position,
                         cv2.FONT_ITALIC, 1, (28, 204, 248), 2)
 
-        # self.cnt += 1
-        # if(self.cnt == 40):
-        #     xy.playsong(output)
-        #     self.cnt =0
-        #     return img
+        self.cnt += 1
+        if(self.cnt == 40):
+            xy.playsong(output)
+            self.cnt =0
+            return img
         return img
 
 
